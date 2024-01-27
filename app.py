@@ -21,8 +21,6 @@ training_outputs = activating_neurons.active_neurons(inputs_list=inputs, weights
 training_model = TrainModel(weights_list=weights_generated, inputs_list=inputs, training_outputs=training_outputs)
 trained_model = training_model.train()
 
-print('Quantidade de neurônios:', len(inputs))
-print('Quantidade de pesos:', len(weights_generated))
 
 with open('model.json', 'w') as file:
     file.write(json.dumps(trained_model))
