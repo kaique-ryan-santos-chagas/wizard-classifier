@@ -1,8 +1,6 @@
 import json
 import os
 
-# Preparing data to training model.
-
 class PreparingData:
 
     def __init__(self):
