@@ -123,6 +123,20 @@
     "Animago": false,
     "Patrono": true
 
+  },
+
+  {
+
+    "Nome": "Rony Wesley",
+    "Habilidade Magica": 3,
+    "Idade": 33,
+    "Conhecimento de Pocoes": 3,
+    "Astucia": 7,
+    "Lealdade": 10,
+    "Classe": "Bruxo",
+    "Animago": false,
+    "Patrono": true
+
   }
 
 ]
