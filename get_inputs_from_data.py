@@ -1,4 +1,5 @@
 
+# Getting inputs from training data.
 
 class GetInputsData:
 
