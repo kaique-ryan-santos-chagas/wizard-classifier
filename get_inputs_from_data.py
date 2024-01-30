@@ -1,6 +1,4 @@
 
-# Getting inputs from training data.
-
 class GetInputsData:
 
     def __init__(self):
