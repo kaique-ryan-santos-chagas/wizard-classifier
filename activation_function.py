@@ -1,6 +1,4 @@
 
-# Activation Function to active neurons in the network.
-
 class ActivationFunction:
 
     def __init__(self):
