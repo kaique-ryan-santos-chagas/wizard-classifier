@@ -1,6 +1,5 @@
 import random
 
-# Generating random weights for neural network.
 
 class GenerateWeights:
 
