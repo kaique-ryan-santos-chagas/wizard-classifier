@@ -1,7 +1,5 @@
-import json, os
+import json
 
-from playsound import playsound
-from gtts import gTTS
 from prepare_data import PreparingData
 from generate_weights import GenerateWeights
 from get_inputs_from_data import GetInputsData
