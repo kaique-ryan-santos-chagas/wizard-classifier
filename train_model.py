@@ -1,7 +1,5 @@
 from activation_function import ActivationFunction
 
-# Training model.
-
 class TrainModel:
 
     def __init__(self, weights_list, inputs_list, training_outputs):
