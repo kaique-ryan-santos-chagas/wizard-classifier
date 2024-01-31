@@ -1,5 +1,4 @@
 
-
 class GetInputsData:
 
     def __init__(self):

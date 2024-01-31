@@ -1,5 +1,6 @@
 import random
 
+
 class GenerateWeights:
 
     def __init__(self):
