@@ -18,7 +18,7 @@ class PreparingData:
                 column['Habilidade Magica'] = 1
             else:
                 column['Habilidade Magica'] = 0
-            if column['Idade'] < 30:
+            if column['Idade'] > 30:
                 column['Idade'] = 1
             else:
                 column['Idade'] = 0
