@@ -10,7 +10,7 @@ model_json = open(model_path.replace('/', '\\'))
 trained_model = json.load(model_json)
 character_data = training_data.prepare_data()
 
-input = [0, 0, 0, 0, 1, 0, 0, 1, 1]
+input = [1, 1, 1, 1, 0, 0, 1, 1, 1]
 
 CORRECT_OUTPUT = 1
 
@@ -25,6 +25,8 @@ for weights in trained_model:
 
   
   error = CORRECT_OUTPUT - sum
+
+  print('Error:', round(error, 1))
 
   if round(error, 1) == 0:
 
